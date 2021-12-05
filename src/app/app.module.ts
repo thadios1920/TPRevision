@@ -10,6 +10,7 @@ import { SelectedemployeComponent } from './application/selectedemploye/selected
 import { ListemployesComponent } from './application/listemployes/listemployes.component';
 import { MenuComponent } from './application/menu/menu.component';
 import { AjoutemployeComponent } from './application/ajoutemploye/ajoutemploye.component';
+import { ModifemployeComponent } from './application/modifemploye/modifemploye.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AjoutemployeComponent } from './application/ajoutemploye/ajoutemploye.c
     SelectedemployeComponent,
     ListemployesComponent,
     MenuComponent,
-    AjoutemployeComponent
+    AjoutemployeComponent,
+    ModifemployeComponent
   ],
   imports: [
     BrowserModule,
