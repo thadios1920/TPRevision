@@ -11,6 +11,7 @@ import { ListemployesComponent } from './application/listemployes/listemployes.c
 import { MenuComponent } from './application/menu/menu.component';
 import { AjoutemployeComponent } from './application/ajoutemploye/ajoutemploye.component';
 import { ModifemployeComponent } from './application/modifemploye/modifemploye.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import { ModifemployeComponent } from './application/modifemploye/modifemploye.c
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

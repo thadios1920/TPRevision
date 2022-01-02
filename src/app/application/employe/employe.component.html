@@ -1,1 +1,7 @@
-<p>employe works!</p>
+<ul class="list-group-item">
+    <li> Employe num : {{emp.id}}</li>
+    <li> <img [src]="emp.photo" alt=""></li>
+    <li> Employe num : {{emp.nom}}</li>
+    <a [routerLink]="['/lesempolyes', emp.id]" > Détail</a>
+    <button (click)="onSupprime()" >Supprimer</button>
+  </ul>
